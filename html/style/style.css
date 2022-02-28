@@ -1,0 +1,389 @@
+
+.crdofplaces {
+    width: 260px;
+    height: 380px;
+    border-radius: 18px;
+    background-color: #F3F3F3;
+    border: none;
+    margin: 20px 0px 20px 0px;
+}
+.crdofplacesmargin {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+.card-titleofplaces {
+    color: #3D86B3;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.readmoreofplaces {
+    display: flex;
+    height: 20px;
+    margin-right: 10px;
+}
+.readmoreofcardplaces {
+    margin-left: px;
+    font-size: px;
+    font-weight: bold;
+    color: #3D86B3;
+
+}
+.imgofreadmoreplaces {
+    margin-right: 4px;
+    margin-top: 5px;
+    height: 10px;
+    width: 11px;
+}
+.ulofplaces {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 0px 0px;
+    font-size: 30px;
+}
+.list{
+    list-style: none;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.list:hover{
+    color: #FF6366;
+    transition: .5s;
+}
+* {
+    font-family: Arial !important;
+}
+.rowofcardplaces {
+    margin: 0px 60px 0px 60px;
+}
+.imgofplaces{
+  height: 210px;
+  border-radius: 18px 18px 0px 0px;
+}
+
+.sugsthomeland{
+  width: 100%;
+  min-height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/placesbg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.alshahedhomeland{
+  width: 100%;
+  min-height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/img/نصب\ الشهيد\ bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+.home{
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/hpg.jfif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.rhltk1{
+  font-weight: 900;
+  color: #FF6366;
+}
+.aktshf2{
+  max-width: 550px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: white;
+  font-size: x-large;
+}
+.btn{
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 11px 25px;
+  border-radius: 20px;
+}
+.btn-brand{
+  background-color: #FF6366;
+  color: white;
+}
+.btn-brand:hover{
+  background-color: #FF6366;
+}
+
+.readmoreofhome{
+  color: #FF6366;
+  text-decoration: none;
+  margin-left: 80px;
+  font-size: large;
+  font-weight: 400;
+
+}
+.homeactivty{
+  margin: 20px 0px 40px 60px;
+  font-weight: 600;
+}
+.homeactivty2{
+  margin: 20px 0px 40px 80px;
+  font-weight: 600;
+}
+
+.whowearehome{
+  font-size: larger;
+  text-align: center;
+  font-weight: 600;
+}
+.whowearepart{
+  margin: 50px 100px 0px 0px;
+}
+.whowearephoto{
+  margin: 0px 0px 100px 00px;
+  
+}
+
+
+.whychosuscard{
+  width: 300px;
+  height: 300px;
+  background-color: #F3F3F3;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.imgofwhycosus{
+  margin: 20px 0px;
+}
+.whytocosusp{
+  font-size: 20px;
+  margin: 20px 29px 0px 29px;
+}
+.rowofwhycosus{
+  margin: auto;
+}
+.whowearehome2{
+  margin-top: 50px;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 70px;
+}
+
+
+
+.txtofbloghome{
+  margin: 20px 0px 40px 0px;
+  max-width: 388px;
+  align-items: center;
+  margin-left: 50px;
+}
+.readmoreofbloghome{
+  text-align: center;
+  text-decoration: none;
+  color: #FF6366;
+  margin-bottom: 30px;
+}
+.readmoreofbloghome:hover{
+  color: #3D86B3;
+}
+.lightbg{
+  background-color: #F9F9F9;
+}
+
+
+.copyrigth {
+    color: white;
+  }
+  .pinkit{
+    color: #FF6366;
+  }
+  .blueit{
+    color: #3D86B3;
+  }
+  .blackit{
+    color: black;
+  }
+  .blackbg {
+    background-color: black;
+  }
+  .whiteborderimg {
+    border-radius: 1000px;
+    border-color: white;
+    border-width: 0px;
+    border-style: solid;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: 5px;
+  }
+  .whitethetext {
+    color: white;
+  }
+  .footerfirstpart {
+    display: flex;
+    column-gap: 5px;
+    flex-wrap: wrap;
+  }
+  .nav-item{
+    margin-right: 0px;
+  }
+  .hsigdsh{
+    margin-right: 25px;
+  }
+  .firstnavlogo {
+    display: flex;
+  }
+  .navitemhomepage {
+    font-size: 25px;
+    margin: 0px 20px 10px 20px;
+    font-weight: 500;
+  }
+  .navlinkforh:hover {
+    color: #FF6366;
+    transition: 0.2s;
+  }
+  .navlinkforh {
+    color: black;
+    text-decoration: none;
+    margin: 0px 8px 0px 8px;
+    justify-content: center;
+  }
+  .homepagefrttxt {
+    font-size: 50px;
+  }
+  .homepagescndtxt {
+    color: white;
+    font-size: 30px;
+    width: 500px;
+    margin-left: 100px;
+  }
+  .homepagefrtbtn {
+    color: white;
+    background-color: #FF6366;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+  }
+
+  .titleofgalry{
+    margin-left: 240px;
+  }
+  .titleofgalry2{
+    margin-left: 195px;
+  }
+  .titleofgalryk{
+    margin-left: 160px;
+  }
+  .rowofgalry{
+    background-color: #F9F9F9;
+    margin-bottom: 80px;
+  }
+
+
+  
+
+
+  #carouselExampleIndicators {
+    height: 665px;
+    width: 550px;
+  }
+
+
+  .mapofoneplace{
+      border-radius: 25px;
+      align-items: center;
+      justify-content: center;
+  }
+  .textofoneplace{
+    width: 500px;
+    margin: auto;
+    font-size: large;
+    margin-top: 50px;
+  }
+
+
+
+
+  .sugstfirsttext{
+    color: #FF6366;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+  .sugstscndtext{
+    margin: 0px 0px 50px 0px;
+    /* width: 420px; */
+    font-size: large;
+    text-align: center;
+  }
+  .formofsugs{
+    background-color: #F3F3F3;
+    width: 64%;
+    height: 490px;
+    margin: 0px 0px 30px 100px;
+    border-radius: 30px;
+  }
+  .emailofsug{
+    width: 80%;
+    margin: 0px 10% 10px 10%;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+  }
+  .nameofsug1{
+    margin: 30px 9% 10px 10%;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+  }
+  .nameofsug2{
+    width: px;
+    margin: 30px 10% 10px 0px;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+  }
+  .detailsofsug{
+    width: 80%;
+    margin: 0px 10% 10px 10%;
+    border-radius: 20px;
+    border: none;
+    height: 100px;
+    text-align: end;
+    justify-self: start;
+    }
+    .scndpartofsugform{
+      margin: 100px 0px 50px 0px;
+      font-weight: 500;
+    }
+    .ourlocationsugform{
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .ourlocationsugform1{
+      text-decoration: none;
+      margin-bottom: 0px;
+    }
+    .submitofsugform{
+      margin: 20px 0px 0px 45%;
+    }
+    .logoimg{
+      border-radius: 10px;
+    }

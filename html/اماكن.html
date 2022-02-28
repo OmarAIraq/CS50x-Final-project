@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اماكن</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<!-- <style>
+    .crdofplaces {
+        width: 260px;
+        height: 380px;
+        border-radius: 18px;
+        background-color: #F3F3F3;
+        border: none;
+        margin: 20px 0px 20px 0px;
+    }
+    .crdofplacesmargin {
+        margin: 20px 0px 20px 0px;
+    }
+    .card-titleofplaces {
+        color: #3D86B3;
+        margin-top: 7px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+    .readmoreofplaces {
+        display: flex;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .readmoreofcardplaces {
+        margin-left: px;
+        font-size: px;
+        font-weight: bold;
+        color: #3D86B3;
+
+    }
+    .imgofreadmoreplaces {
+        margin-right: 4px;
+        height: 15px;
+        width: 16px;
+    }
+    .ulofplaces {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .list{
+        list-style: none;
+        padding: 8px 20px;
+        margin: 5px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+    .list:hover{
+        color: #FF6366;
+        transition: .5s;
+    }
+    * {
+        font-family: Arial !important;
+    }
+    .rowofcardplaces {
+        margin: 0px 90px 0px 90px;
+    }
+</style> -->
+
+<body>
+    <nav class="navbar navbar-light border-bottom ">
+        <div class="container-fluid">
+            <img src="../img/search icon.png" class="ms-1" height="40" width="50" alt="">
+            <div class="firstnavlogo">
+                <h2 class="" style="color: #FF6366;">رحلاتي</h2>
+                <img src="../img/Screen Shot 2022-01-22 at 12.29 7.png" alt="">
+            </div>
+            <h6>تسجيل دخول</h6>
+
+        </div>
+    </nav>
+    <!-- 2nd nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a href=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item navitemhomepage">
+                        <a class=" navlinkforh" href="#">اقترح لنا</a>
+                    </li>
+                    <li class="nav-item navitemhomepage">
+                        <a class=" navlinkforh" href="#">المدونة</a>
+                    </li>
+                    <li class="nav-item navitemhomepage">
+                        <a class=" navlinkforh" href="#">النشاطات</a>
+                    </li>
+                    <li class="nav-item navitemhomepage">
+                        <a class=" navlinkforh" href="#">الاماكن</a>
+                    </li>
+                    <li class="nav-item navitemhomepage">
+                        <a class=" navlinkforh" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item navitemhomepage">
+                        <a class=" navlinkforh active navitemhomepage" aria-current="page" href="#">الصفحة الرئيسية</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img src="../img/places home page11111.png" class="d-block w-100" usemap="#image-map">
+    <div class="container-fluid">
+        <div class="catag">
+            <div class="row">
+                <ul class="ulofplaces justify-content-center">
+                    <li class="list" data-filter="rest">مطاعم</li>
+                    <li class="list" data-filter="fun">ترفيهية</li>
+                    <li class="list" data-filter="reg">دينية</li>
+                    <li class="list" data-filter="ant">اثرية</li>
+                    <li class="list" data-filter="nat">طبيعية</li>
+                    <li class="list active" data-filter="all">الكل</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="container"> -->
+        <div class="row rowofcardplaces">
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox nat">
+                <div class="card crdofplaces">
+                    <img src="../img/جبل بيرة مكرون.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">جبل بيرة مكرون</h4>
+                        <p class="card-text crdofplacesmargin">جبل صخري جميل يبلغ ارتفاعه 2611 مترًا يطل على مدينة
+                            السليماني. هناك مجموعات</p>
+                        <center>
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant nat">
+                <div class="card crdofplaces">
+                    <img src="../img/‪هواري شار ‬.png" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">حديقة هواري شار</h4>
+                        <p class="card-text crdofplacesmargin">حديقة خضراء كبيرة جميلة على مساحة أكثر من 1000 فدان.
+                            منطقة صديقة للأسرة</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant المتنبي">
+                <div class="card crdofplaces">
+                    <img src="../img/almtnaby.png" class="card-img-top"
+                        style="height: 200px; border-radius: 18px 18px 0px 0px;" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">شارع المتنبي</h4>
+                        <p class="card-text crdofplacesmargin">من اقدم الشوارع في بغداد و ‪من اروع الاماكن الثقافية فيه
+                            مقاهي شعبية قديمة </p>
+                        <center>
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox nat بحيرة موكي فيلاو">
+                <div class="card crdofplaces">
+                    <img src="../img/بحيرة گومى فيلاو.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">بحيرة گومى فيلاو</h4>
+                        <p class="card-text crdofplacesmargin">موقعًا جميلًا للغاية حيث يمكنك التنزه أو التخييم. نوصي
+                            بشدة بزيارتها في الربيع</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant نصب الشهيد ">
+                <div class="card crdofplaces">
+                    <img src="../img/نصب الشهيد.jfif" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">نصب الشهيد</h4>
+                        <p class="card-text crdofplacesmargin">‪تم بناء نصب الشهيد سنة 1983 ويقع في منطقة زيونة من جانب
+                            الرصافة لمدينة بغداد</p>
+                        <center>
+
+                            <a href="/html/oneplace.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant متحف بغداد">
+                <div class="card crdofplaces">
+                    <img src="../img/baghdadi-museum.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">المتحف البغدادي</h4>
+                        <p class="card-text crdofplacesmargin">متحف اكثر من رائع, يحتوي على قاعات تعرض فيها تماثيل تحاكي
+                            موروث البغداديين </p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox nat kork mountin">
+                <div class="card crdofplaces">
+                    <img src="../img/جبل كورك.png" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">جبل كورك</h4>
+                        <p class="card-text crdofplacesmargin">يقع منتجع جبل كورك في أربيل، يضم المكان ملعباً للأطفال
+                            ومناطق للمشي والتزلج</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant الملوية  ">
+                <div class="card crdofplaces">
+                    <img src="../img/الملوية.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">المئذنة الملوية</h4>
+                        <p class="card-text crdofplacesmargin">كانت أكبر منارة في ذلك الوقت، وتسلقها تجربة رائعة وتوفر
+                            إطلالة على سامراء.</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant بابل">
+                <div class="card crdofplaces">
+                    <img src="../img/بابل.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">بابل</h4>
+                        <p class="card-text crdofplacesmargin">يعود تاريخها إلى حوالي أربعة آلاف عام وما زالت بعض آثارها
+                            في هذه المدينة الأثرية</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant reg دير ربان هرمز ">
+                <div class="card crdofplaces">
+                    <img src="../img/دير ربان هرمز.jpg" class="card-img-top imgofplaces"
+                        style="height: 190px; border-radius: 18px 18px 0px 0px;" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">دير ربان هرمز</h4>
+                        <p class="card-text crdofplacesmargin">‪من اجمل الاديرة الموجودة في شمال العراق في منطقة القوش
+                            التابعة لقضاء تلكيف</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant زقورة">
+                <div class="card crdofplaces">
+                    <img src="../img/zakoooora.jpg" class="card-img-top imgofplaces" style="height: 190px;" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">زقورة أور</h4>
+                        <p class="card-text crdofplacesmargin"> من أقدم المعابد في العراق وواحد من المواقع الأثرية
+                            السومرية القليلة في مدينة ذي قار</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox reg">
+                <div class="card crdofplaces">
+                    <img src="../img/العتبة العباسية المقدسة.jfif" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">العتبة العباسية المقدسة</h4>
+                        <p class="card-text crdofplacesmargin">المكان الذي دفن فيه العباس بن علي (ع) بعد معركة كربلاء
+                            عام 61 هجري</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ">
+                <div class="card crdofplaces">
+                    <img src="../im" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center"></h4>
+                        <p class="card-text crdofplacesmargin"></p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox reg العتبة العلوية">
+                <div class="card crdofplaces">
+                    <img src="../img/العتبة العلوية المقدسة.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">العتبة العلوية المقدسة</h4>
+                        <p class="card-text crdofplacesmargin">العتبة العلوية المقدسة أو ضريح الإمام علي (ع) شيدت في عهد
+                            الخليفة هارون الرشيد</p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ant المدائن">
+                <div class="card crdofplaces">
+                    <img src="../img/المدائن.jpg" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center">المدائن</h4>
+                        <p class="card-text crdofplacesmargin">وصف الكثير من الشعراء ایوان کسری واستلهموا منه الوصف
+                            الشهير لخاقاني </p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ">
+                <div class="card crdofplaces">
+                    <img src="../im" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center"></h4>
+                        <p class="card-text crdofplacesmargin"></p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 p-0 ms-0 itemBox ">
+                <div class="card crdofplaces">
+                    <img src="../im" class="card-img-top imgofplaces" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title card-titleofplaces text-center"></h4>
+                        <p class="card-text crdofplacesmargin"></p>
+                        <center>
+
+                            <a href="../html/alshahed.html"
+                                class="readmoreofplaces crdofplacesmargin justify-content-center"
+                                style="text-decoration: none;"><img src="../img/Polygon 24.png"
+                                    class="imgofreadmoreplaces " alt="">
+                                <h6 class="readmoreofcardplaces">اقرأ المزيد</h6>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- </div> -->
+
+        <!-- Footer start -->
+    <footer class="row row-cols-4 py-5 mb-0 blackbg  border-bottom">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <h3 class="text-center whitethetext">تابعونا</h3>
+          <div class=" text-center">
+            <!-- mapping img -->
+            <img class="whiteborderimg" src="../img/facebook.png" alt="">
+            <img src="../img/instagram.png" class="whiteborderimg" alt="">
+            <img src="../img/twitter.png" class="whiteborderimg" alt="">
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <h3 class=" whitethetext text-center">روابط سريعة</h3>
+          <ul class="nav flex-column text-end">
+            <li class="nav-item mb-2"><a href="./home.html" class="nav-link whitethetext">الصفحة الرئيسية</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link whitethetext">من نحن</a></li>
+            <li class="nav-item mb-2"><a href="./اماكن.html" class="nav-link whitethetext">الاماكن</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link whitethetext">النشاطات</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link whitethetext">المدونة</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link whitethetext">اقترح لنا</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-6">
+          <h3 class=" text-center whitethetext">عناويننا</h3>
+          <ul class="nav flex-column text-end">
+            <li class="nav-item mb-2"><a href="#" class="nav-link hsigdsh whitethetext">009647712121212</a></li>
+            <li class="nav-item mb-2"><a
+                href="https://www.google.com/maps/place/The+Station+-+%D8%A7%D9%84%D9%85%D8%AD%D8%B7%D8%A9%E2%80%AD/@33.3013079,44.4324949,15z/data=!4m5!3m4!1s0x1557819e0096b3af:0x6d200cdc90d69565!8m2!3d33.3010773!4d44.4371384"
+                class="nav-link whitethetext hsigdsh">Our Location</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link whitethetext hsigdsh">placesofiq@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-sm-0">
+          <div class="footerfirstpart ">
+            <h3 class="whitethetext align-self-end">رحلاتي</h3>
+            <img src="../img/Screen Shot 2022-01-22 at 12.29 7.png" class="ms-3" alt="">
+          </div>
+        </div>
+  
+      </footer>
+      <div class="row blackbg ">
+        <h5 class="whitethetext blackbg text-center">&copy;CS50x student</h5>
+      </div>
+      <!-- Footer end   -->
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.list').click(function () {
+                    const value = $(this).attr('data-filter');
+                    if (value == 'all') {
+                        $('.itemBox').show('1000');
+                    }
+                    else {
+                        $('.itemBox').not('.' + value).hide('1000');
+                        $('.itemBox').filter('.' + value).show('1000');
+                    }
+                })
+            })
+        </script>
+</body>
+
+</html>
